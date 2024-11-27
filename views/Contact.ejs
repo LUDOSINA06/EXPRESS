@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body class="text-white bg-black">
+    <header class="mx-10 my-5 ">
+        <nav class="flex justify-between">
+            <a href="/" class="text-orange-600 text-3xl font-bold italic">EXPRESS</a>
+            <ul class="h-4 flex justify-normal ml-5">
+                <li class="mr-10 text-orange-600 hover:font-bold"><a href="">Home</a></li>
+                <li class=" mr-10 text-orange-600 hover:font-bold"><a href="">Services</a></li>
+                <li class="text-orange-600 hover:font-bold"><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="flex justify-center mt-28">
+        <form class="w-96  bg-orange-600 shadow-2xl rounded-lg">
+            <h1 class="flex justify-center text-black font-bold text-mono text-lg">Formulaire de Contact</h1>
+            <div class="ml-2">
+                <h1 class="text-black font-mono  mt-10 text-lg">Name:</h1>
+                <input type="text" class="rounded-md shadow-md bg-slate-100 w-80">
+            </div>
+            <div class="ml-2 ">
+                <h1 class="text-black font-mono  mt-10 text-lg">E-mail:</h1>
+                <input type="email" class="rounded-md shadow-md w-80 bg-slate-100 ">
+            </div>
+            <div class="ml-2 mb-4">
+                <h1 class="text-black font-mono  mt-10 text-lg">Mesaage:</h1>
+                <input type="text" class="rounded-md shadow-md w-80 bg-slate-100 ">
+            </div>
+        </form>
+    </section>
+</body>
+</html>
